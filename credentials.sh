@@ -1,11 +1,11 @@
 /bin/bash
 
 echo " Please enter user name  :"
-read username
+read UN
 
 echo "Please enter password  :"
 
-read password
+read PW
 
-echo "username   password"
+echo "UN PW"
 
