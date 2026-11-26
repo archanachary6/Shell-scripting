@@ -1,6 +1,10 @@
 #!/bin/bash
-echo "shreya : hi saha , how are you saha?"
-echo "saha: hi shreya, I am fine , how are you shreya?"
-echo "shreya : I am good too, thank you."
+echo "$x : hi $y , how are you $y?"
+echo "$y: hi $x, I am fine , how are you $x?"
+echo "$x : I am good too, thank you $y."
+
+
+x=Shreya
+y=saha
 
 
