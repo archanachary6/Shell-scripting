@@ -2,7 +2,7 @@
 $a=20
 $b=30
 echo "a=$a"
-echo "b="$b"
+echo "b=$b"
 echo "sum=$((a+b))"
 
 
