@@ -1,6 +1,6 @@
 #!/bin/bash
-$a=20
-$b=30
+a=20
+b=30
 echo "a=$a"
 echo "b=$b"
 echo "sum=$((a+b))"
