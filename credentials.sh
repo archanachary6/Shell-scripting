@@ -7,5 +7,5 @@ echo "Please enter password  :"
 
 read PW
 
-echo "UN PW"
+echo "$UN $PW"
 
