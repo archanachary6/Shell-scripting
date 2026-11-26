@@ -8,7 +8,7 @@ echo "$y: hi $x, I am fine , how are you $x?"
 echo "$x : I am good too, thank you $y."
 
 
-echo"  "
+echo "  "
 
 a=$1
 b=$2
