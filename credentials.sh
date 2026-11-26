@@ -1,4 +1,4 @@
-/bin/bash
+#!/bin/bash
 
 echo " Please enter user name  :"
 read UN
