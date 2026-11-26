@@ -10,3 +10,12 @@ echo "$x : I am good too, thank you $y."
 
 
 
+a=$1
+b=$2
+
+echo "$1 : hi $2 , how are you $1?"
+echo "$2: hi $1, I am fine , how are you $1?"
+echo "$1 : I am good too, thank you $2."
+ 
+
+ 
