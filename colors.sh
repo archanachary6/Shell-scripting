@@ -3,10 +3,10 @@ user_id=$(id -u)
 logs_folder="/var/log/Shell-scripting"
 logs_file="${logs_folder}/${0}.log"
 
-R= "\e[31m"
-G= "\e[32m"
-B= "\e[34m"
-N= "\e[0m"
+R="\e[31m"
+G="\e[32m"
+B="\e[34m"
+N="\e[0m"
 
 if [ $user_id -ne 0 ]; then
     echo "Please run this on sudo access"
