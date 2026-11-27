@@ -5,8 +5,8 @@ logs_folder="/var/log/Shell-scripting"
 logs_file="${logs_folder}/${0}.log"
 
 if [ $user_id -ne 0]; then
-echo "Please run this on sudo access"
-exit1
+    echo "Please run this on sudo access"
+    exit1
 fi
 mkdir -p $logs_folder
 echo "Script started execution $(date +"%F %T")" &>> $logs_file
