@@ -9,7 +9,7 @@ echo "Please run this on sudo access"
 exit1
 fi
 mkdir -p $logs_folder
-echo "Script started execution $(date+"%F %T")" &>>$logs_file
+echo "Script started execution $(date +"%F %T")" &>> $logs_file
 validate(){
     if [ $1 -ne 0 ]; then
         echo "${2}..failed" | tee -a $logs_file
