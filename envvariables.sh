@@ -1,4 +1,5 @@
 #!/bin/bash
-$COURSE
-$DURATION
-$TRAINER
+echo "$COURSE"
+echo "$DURATION"
+echo "$TRAINER"
+
