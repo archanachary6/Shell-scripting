@@ -12,8 +12,7 @@ elif [ $marks -lt 60 ]; then
 elif [ $marks -lt 75 ]; then
     echo "First class"
 else 
-    echo "Distinction !"
-
+    echo "Distinction"
 fi
 
 echo "end"
