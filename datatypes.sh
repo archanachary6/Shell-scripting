@@ -7,3 +7,7 @@ echo "$a+$b"
 echo "$(($a+$b))"
 
 echo "$(($a+$b+$c))"
+
+declare -i COUNT=5
+COUNT=COUNT+1
+echo "count is :$COUNT" 
