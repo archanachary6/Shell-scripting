@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "All aruguments passed to the script : $@"
-echo "All aruguments passed to the script : $*"
+echo "All aruguments passed to the script as a word : $*"
 echo "Number of aruguments passed to the script : $#"
 echo "First variable given : $1"
 echo "Script name : $0"
