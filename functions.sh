@@ -13,7 +13,7 @@ validate(){
         echo "${2}..failed"
         exit1
     else
-        echo "${2}.. suceess
+        echo "${2}.. suceess"
     fi
 }
 
