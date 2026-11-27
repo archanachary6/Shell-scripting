@@ -32,6 +32,7 @@ if [ $? -ne 0 ]; then
     validate $? "Installing ${package}"
     else
     echo -e "${B}${package} is already installed${N}" | tee -a
+    fi
 done
 echo -e "${B}Completed....... $(date +"%F %T")${N}" &>> $logs_file
 
