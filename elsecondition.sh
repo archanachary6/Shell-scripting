@@ -24,6 +24,6 @@ else
 echo "Distinction !"
 
 fi
-end
+echo "end"
 
 
